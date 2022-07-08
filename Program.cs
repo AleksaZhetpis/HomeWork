@@ -85,6 +85,8 @@ int n, current;
 Console.Write("Input a number from 1: ");
 n = Convert.ToInt32(Console.ReadLine());
 
+n = n + 2;
+
 current = n / (2);
 
 while (current <= n)
@@ -93,3 +95,4 @@ while (current <= n)
    current = current + 2;
 }
 */
+
